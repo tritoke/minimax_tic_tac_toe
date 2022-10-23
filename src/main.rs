@@ -1,5 +1,5 @@
 use minimax_tic_tac_toe::{
-    agent::{Agent, Ai, Human, Move},
+    agent::{Agent, Move},
     game::{Board, Player},
     PlayerType,
 };

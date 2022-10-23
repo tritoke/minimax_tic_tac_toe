@@ -1,5 +1,4 @@
 use crate::agent::ParseMoveError;
-use crate::game::Board;
 
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 pub struct Move {
