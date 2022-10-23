@@ -4,6 +4,9 @@ An implementation of the minimax algorithm for playing tic-tac-toe, written in r
 
 It should gracefully handle all cases for invalid user input and weird bot bugs (none left???).
 
+## MSRV
+The minimum supported rust version is `1.62.1`.
+
 ## Playing the game
 To play the game do:
 ```sh
