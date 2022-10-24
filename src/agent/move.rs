@@ -10,6 +10,7 @@ impl std::str::FromStr for Move {
     type Err = ParseMoveError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
+        let s = s.trim().trim_matches(&['(', ')'] as &[_]);
         let (row, col) = s.split_once(',').ok_or(ParseMoveError::FormatError)?;
         let row = row
             .trim()
